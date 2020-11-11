@@ -1,4 +1,4 @@
-# Talking-LCD-Clock - Adafruit Feather M4 Express
+# Talking LCD Clock - Adafruit Feather M4 Express
 A 'talking' clock using the Adafruit Feather M4 Express and other components. 
 ## Background
 This project started as a digital alarm clock using an Adafruit Feather M0 Express. I started with the example sketch for the 7 segment LED display and then added an alarm sequence playing the sound  via the inbuilt DAC and a small mono amplifier. The system was further enhanced with a routine that automatically adjusted the clock for daylight savings time.
