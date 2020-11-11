@@ -17,20 +17,20 @@ As the real time clock holds the actual date, as well as the time this could eas
 Having used it now for several days she is very happy with it. Above all when she wakes up on these dark mornings, or during the night, she now knows what the time is. 
 
 ## Components Used:
-    * [Adafruit Feather M4 Express](https://www.adafruit.com/product/3857)
-    * [Adalogger FeatherWing - RTC + SD](https://www.adafruit.com/product/2922) 
-    * [CR1220 12mm Diameter - 3V Lithium Coin Cell Battery](https://www.adafruit.com/product/380) (for the RTC) 
-    * [4-Digit 7-Segment Display FeatherWing](https://www.adafruit.com/product/3106) 
-    * [Mono 2.5W Class D Audio Amplifier - PAM8302](https://www.adafruit.com/product/2130) 
-    * [Mono Enclosed Speaker - 3W 4 Ohm](https://www.adafruit.com/product/4445) 
-    * [Stacking Headers for Feather - 12-pin and 16-pin female headers](https://www.adafruit.com/product/2830)(3 sets)
-    * [Header Kit for Feather - 12-pin and 16-pin Female Header Set](https://www.adafruit.com/product/2886) (2 sets)
-    * 2 pushbuttons (12 mm threaded with nuts for mounting in the case) 
-    * 1 LED pushbutton (12mm -  3 - 5V  LED - push for talking time)
-    * 1 LED latching pushbutton (12mm  -  3 - 5V  LED – up for alarm mode if used) 
-    * a 1000 mAh Lithium battery to keep the clock running for a period in case of a power outage (if it loses power the alarm time would reset to the default time). 
-    * A short Micro USB extension with a 90° downwards connection to lead out the back of the box and provide power. 
-    * Various jumper wires mainly female female which were cut in half to solder to the pushbuttons. 
+     [Adafruit Feather M4 Express](https://www.adafruit.com/product/3857)
+     [Adalogger FeatherWing - RTC + SD](https://www.adafruit.com/product/2922) 
+     [CR1220 12mm Diameter - 3V Lithium Coin Cell Battery](https://www.adafruit.com/product/380) (for the RTC) 
+     [4-Digit 7-Segment Display FeatherWing](https://www.adafruit.com/product/3106) 
+     [Mono 2.5W Class D Audio Amplifier - PAM8302](https://www.adafruit.com/product/2130) 
+     [Mono Enclosed Speaker - 3W 4 Ohm](https://www.adafruit.com/product/4445) 
+     [Stacking Headers for Feather - 12-pin and 16-pin female headers](https://www.adafruit.com/product/2830)(3 sets)
+     [Header Kit for Feather - 12-pin and 16-pin Female Header Set](https://www.adafruit.com/product/2886) (2 sets)
+     2 pushbuttons (12 mm threaded with nuts for mounting in the case) 
+     1 LED pushbutton (12mm -  3 - 5V  LED - push for talking time)
+     1 LED latching pushbutton (12mm  -  3 - 5V  LED – up for alarm mode if used) 
+     a 1000 mAh Lithium battery to keep the clock running for a period in case of a power outage (if it loses power the alarm time would reset to the default time). 
+     A short Micro USB extension with a 90° downwards connection to lead out the back of the box and provide power. 
+     Various jumper wires mainly female female which were cut in half to solder to the pushbuttons. 
 
 ## Assembly
 Because I required connection points for various cables on the underside of the Feather I reversed the normal assembly by having the female headers on the underside of the components. 
