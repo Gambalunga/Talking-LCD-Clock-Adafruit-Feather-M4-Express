@@ -36,11 +36,24 @@ Having used it now for several days she is very happy with it. Above all when sh
  * Various jumper wires mainly female female which were cut in half to solder to the pushbuttons. 
 
 ## Assembly
+
+<p align="center">
+  <img src="https://github.com/Gambalunga/Talking-LCD-Clock-Adafruit-Feather-M4-Express/blob/main/Images/Talking%20LCD%20Clock%20M4.jpg">
+</p>
+
 Because I required connection points for various cables on the underside of the Feather I reversed the normal assembly by having the female headers on the underside of the components. 
 
 I started by assembling the 7 segment display Featherwing with female headers on the underside instead of the supplied male headers. The Adaloger and the Feather M4 Express were also assembled with the stacking headers inserted from the underside. To provide power and ground for various items I soldered a row of 3 female headers to the additional 3v points and a row of 3 male pins (cut from those supplied) to the additional Gnd points (both the 3v and the Gnd points are at the sides of the prototyping area.
 
+<p align="center">
+  <img src="https://github.com/Gambalunga/Talking-LCD-Clock-Adafruit-Feather-M4-Express/blob/main/Images/20201104_095538.jpg">
+</p>
+
 The assembly of the Mono PAM8302 Audio Amplifier was done with a row of 5 stacking headers inserted from the top side so that the pins are on the underside as ‘normal’. The pins on the underside for Shutdown and Ground were then snipped off. This allows the amp to piggyback on the Feather in such a way as the A+ and the A- are in correspondence with the A0 and the Gnd on the Feather and the Vin on the amp is in correspondence with the 3V on the Feather. From the female header on the amp jumpers were run from the Ground (remember the pin on the underside was cut off) to the A- to provide the Gnd connection and from the Shutdown to pin 12 on the Feather.
+
+<p align="center">
+  <img src="https://github.com/Gambalunga/Talking-LCD-Clock-Adafruit-Feather-M4-Express/blob/main/Images/20201104_095329.jpg">
+</p>
 
 I used jumper wires cut in half to solder to the various buttons. I used female jumpers to connect to the Gnd pins previously soldered to the underside of the Feather. In the case where more Gnd connections where required I could have soldered more pins to the prototyping section on the Feather and connected them to Gnd. The LEDs are powered from the female headers previously soldered to the 3V on the underside of the Feather. 
 
@@ -51,3 +64,7 @@ In this sketch I have not applied a routine to “talk” the alarm time however
 There is also a sketch that is used to accurately adjust the time and calibrate the PCF8523 RTC.
 
 In the end the assembly was installed into a cut and drilled plastic case.
+
+<p align="center">
+  <img src="https://github.com/Gambalunga/Talking-LCD-Clock-Adafruit-Feather-M4-Express/blob/main/Images/20201104_175348.jpg">
+</p>
