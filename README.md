@@ -14,6 +14,8 @@ I recorded the numbers 1 to 59 and the words "O'clock" and "The time is" with Au
 
 As the real time clock holds the actual date, as well as the time this could easily be expanded to the day of the week or the full date. The program corrects the time automatically for European daylight savings rules (or US if required). It has a back up LiPo battery (and charger) that will power it for a day in the case of a power failure or being disconnected. The real time clock has its own back up battery that will keep it going for a long time, perhaps years, if the clock stays without power, but of course no display or sound in that case. 
 
+I also modified the DST_RTC library for European DST and it has now been updated on GitHub. See https://github.com/andydoro/DST_RTC
+
 Having used it now for several days she is very happy with it. Above all when she wakes up on these dark mornings, or during the night, she now knows what the time is. 
 
 ## Components Used:
