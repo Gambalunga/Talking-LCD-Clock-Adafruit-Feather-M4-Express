@@ -10,13 +10,13 @@ My mother in law is unfortunately loosing her sight. She can see just enough to 
 
 I asked her if a talking clock would be useful and she thought it would be. She decided that red would be the best colour for the LED display and the push button on the top to have it tell the time. She also decided that 12, not 24 hour time would suit her best. 
 
-I recorded the numbers 1 to 59 and the words "O'clock" and "The time is" with Audacity and saved them in WAV format to the SD card.  Obviously various other styles could be used. When she pushes the button on the top of the clock it says something like: The time is 5. 42" or "The time is 6. O'clock".  She had no need for an alarm so that part of the sketch governed by a boolean constant but I left the code in the sketch.
+I recorded the numbers 1 to 59 and the words "O'clock" and "The time is" with Audacity and saved them in WAV format to the SD card. When she pushes the button on the top of the clock it says something like: The time is 5. 42" or "The time is 6. O'clock". Obviously various other styles could be used, such as "The time is quarter past (or 15 past) 5" etc. She had no need for an alarm so that part of the sketch governed by a boolean constant but I left the code in the sketch.
 
 As the real time clock holds the actual date, as well as the time this could easily be expanded to the day of the week or the full date. The program corrects the time automatically for European daylight savings rules (or US if required). It has a back up LiPo battery (and charger) that will power it for a day in the case of a power failure or being disconnected. The real time clock has its own back up battery that will keep it going for a long time, perhaps years, if the clock stays without power, but of course no display or sound in that case. 
 
 I also modified the DST_RTC library for European DST and it has now been updated on GitHub. See https://github.com/andydoro/DST_RTC
 
-Having used it now for several days she is very happy with it. Above all when she wakes up on these dark mornings, or during the night, she now knows what the time is. 
+Having used it now for several days she is very happy with it. Above all when she wakes up on these dark mornings, or during the night, she can know what the time is. 
 
 ## Components Used:
 
