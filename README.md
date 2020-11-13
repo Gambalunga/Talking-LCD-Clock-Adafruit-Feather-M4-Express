@@ -50,6 +50,7 @@ I started by assembling the 7 segment display Featherwing with female headers on
 </p>
 
 The assembly of the Mono PAM8302 Audio Amplifier was done with a row of 5 stacking headers inserted from the top side so that the pins are on the underside as ‘normal’. The pins on the underside for Shutdown and Ground were then snipped off. This allows the amp to piggyback on the Feather in such a way as the A+ and the A- are in correspondence with the A0 and the Gnd on the Feather and the Vin on the amp is in correspondence with the 3V on the Feather. From the female header on the amp jumpers were run from the Ground (remember the pin on the underside was cut off) to the A- to provide the Gnd connection and from the Shutdown to pin 12 on the Feather.
+Note that the potentiometer on the amp will probably need to be adjusted to give clear sound as the amp tends to overpower the small speaker.
 
 <p align="center">
   <img src="https://github.com/Gambalunga/Talking-LCD-Clock-Adafruit-Feather-M4-Express/blob/main/Images/20201104_095329.jpg">
